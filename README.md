@@ -24,6 +24,7 @@ Unpacking objects: 100% (60/60), done.
 6. Find the file called `step1.html`. Click on it.
 
 ![VSCode Step1](assets/VSCodeStep1.png)
+
 7.  Follow the steps in `step1.html` to get started! Once you're done with that, move on to `step2.html`, etc.
 
 ## How to Submit?
