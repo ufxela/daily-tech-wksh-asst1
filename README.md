@@ -19,8 +19,10 @@ Unpacking objects: 100% (60/60), done.
 ```
 3. Open up VS Code, click `open folder` in the welcome page and then find the `daily-tech-wksh-asst1` folder and open it.
 4. Click the file icon in the top left of VS Code
+
 ![VSCode Explorer](assets/VSCodeExplorer.png)
 6. Find the file called `step1.html`. Click on it.
+
 ![VSCode Step1](assets/VSCodeStep1.png)
 7.  Follow the steps in `step1.html` to get started! Once you're done with that, move on to `step2.html`, etc.
 
