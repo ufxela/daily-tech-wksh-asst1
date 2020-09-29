@@ -16,9 +16,10 @@ remote: Total 60 (delta 24), reused 42 (delta 15), pack-reused 0
 Unpacking objects: 100% (60/60), done.
 ```
    2. If you're encountering issues with the command `git clone...` then for now you can click on the green code button, and then click on download zip to download a zip of this folder. Then unzip it on your computer. We'll cover git week 2 so don't worry if git isn't working properly right now.
+   3. Or you can try to install git by first installing homebrew (instructions [here](https://brew.sh/)) and then using homebrew to install git (instructions [here](https://git-scm.com/download/mac))
 3. Open up VS Code, click `open folder` in the welcome page and then find the `daily-tech-wksh-asst1` folder and open it.
 4. Click the file icon in the top left of VS Code
-5[VSCode Explorer](assets/VSCodeExplorer.png)
+![VSCode Explorer](assets/VSCodeExplorer.png)
 6. Find the file called `step1.html`. Click on it.
 ![VSCode Step1](assets/VSCodeStep1.png)
 7.  Follow the steps in `step1.html` to get started! Once you're done with that, move on to `step2.html`, etc.
