@@ -15,7 +15,7 @@
       <!-- Step 6.1
 
         This is a text area! What is a text area? How is it styled?
-
+text area is where a user inputs text. It is styled by the user inputting information. 
         You may be thinking right now: with a text area, a user can input
         text, but how can my program get the text that the user inputs?
         Don't worry about that for now--we'll get to it soon!
@@ -32,11 +32,16 @@
         Also remember to add CSS styling to everything, so it looks pretty! You can also look into the <br>
         element as another way to add vertical whitespace.
       -->
+    <span>Featured contect author name</span>
+    <textarea></textarea>
+    <span> Featured content link</span>
+    <textarea></textarea>
     </div>
 
       <!-- Step 6.3 
         This is a button! What is a button? What is "onclick"? Are there other attributes
-        which we can add to a button?
+        which we can add to a button? A button is something you can click and it will do something as a result (sometimes) 
+        onclick is when the user clicks, what ever is put will happen.
 
         https://www.w3schools.com/html/html_attributes.asp
         https://www.w3schools.com/jsref/event_onclick.asp
@@ -48,6 +53,12 @@
         Can you change the message the Alert popup displays?
         Can you add styling to your button?
       -->
-    <button onclick="alert('This is an Alert!')">Submit all changes</button>
+<style> 
+button {
+  color:palevioletred;
+  font-size: small;
+}
+</style>
+    <button onclick="alert('Are you sure you want to submit all changes?')">Submit all changes</button>
   </body>
 </html>
