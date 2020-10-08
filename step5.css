@@ -10,13 +10,16 @@ lines in your html files to make them more readable.
 #the_title {
     padding-left: 10px;
     color: goldenrod;
+    text-align: center;
 }
 
 #featured_fields3 {
     padding: 10px;
-    margin: 10px;
+    margin: 10 px;
+    width: fit-content;
     border-style: solid;
     border-color: #8c1514;
-    border-radius: 25px;
+    border-radius: 2px;
     background-color: lightyellow;
+    text-align: center; 
 }
