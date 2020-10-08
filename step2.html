@@ -26,10 +26,16 @@
   What happens? Then, change "the_title" to "not_the_title" up on the id of the h1 tag. Then what happens?
   Write comment about your findings!
 
+  Header 1 changed from red to black when I changed "the_title" to "not_the_title" down below. However, when I kept the previous edit and changed "the_title" to "not_the_title", header 1 appeared red again.
+
   What are "padding-left" or "color" or "font-size"? What are the the "10px" or "firebrick" that go to
   their right?
 
+   They are properties.
+
   What is a "#the_title" or a "#the_real_title"? 
+  
+ They are a type of simple selector that selects elements based on their id.
 
   If you're not sure, check out:
   https://www.w3schools.com/css/css_syntax.asp
@@ -37,12 +43,19 @@
 -->
 <style type="text/css">
   #the_title {
-      padding-left: 10px;
-      color: firebrick;
+    padding-left: 10px;
+    /* color: firebrick; */
   }
+
+  #the_title {
+    text-align: center;
+    color: #8B0000;
+    font-size: 75px;
+  }
+
   #the_real_title {
-      font-size: 100px;
-      color: aquamarine;
+    font-size: 100px;
+    color: aquamarine;
   }
 </style>
 <!--
