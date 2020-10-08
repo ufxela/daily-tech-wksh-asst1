@@ -12,9 +12,10 @@
 
   What's different about the below line from step1.html?
   What is id? What if we change it to "the_real_title"? 
+  - the color changes and font gets bigger
   Change "the_real_title" back to "the_title" after you're done
 -->
-<h1 id="the_title">So you wanna set up a Stanford Daily email newsletter?</h1>
+<h1 id="not_the_title">So you wanna set up a Stanford Daily email newsletter?</h1>
 
 <!--
   Step 2.2
@@ -23,8 +24,8 @@
 
   You might notice that "the_title" and "the_real_title" appear below, just as they did 
   above. Just a coincidence? Nope! Try changing "the_title" to "not_the_title" down below.
-  What happens? Then, change "the_title" to "not_the_title" up on the id of the h1 tag. Then what happens?
-  Write comment about your findings!
+  What happens? (color changes to black from) Then, change "the_title" to "not_the_title" up on the id of the h1 tag. Then what happens? (it goes back to red from black)
+  Write comment about your findings! - THe color changes when I put not the title below to black from red, but when I put not the title above, it turns back to red from black.
 
   What are "padding-left" or "color" or "font-size"? What are the the "10px" or "firebrick" that go to
   their right?
@@ -36,13 +37,14 @@
   https://www.w3schools.com/css/css_selectors.asp
 -->
 <style type="text/css">
-  #the_title {
-      padding-left: 10px;
-      color: firebrick;
+  #not_the_title {
+    padding-left: 10px;
+    color: firebrick;
   }
+
   #the_real_title {
-      font-size: 100px;
-      color: aquamarine;
+    font-size: 100px;
+    color: aquamarine;
   }
 </style>
 <!--
@@ -57,3 +59,24 @@
   And if you're looking for creative inspiration, check out the left side bar of
   that page to see the types of things you can do with CSS
 -->
+
+<html>
+<head>
+<style>
+p {
+  outline-style: dotted;
+  outline-color: cornflowerblue;
+  font-family: cursive;
+  font-size: 100px;
+  color:#ffe5b4;
+  text-align: center;
+} 
+</style>
+</head>
+<body>
+
+<p>Hi, this is Scarlett!</p>
+<p>I'm feeling very tired ackk.</p>
+
+</body>
+</html>
