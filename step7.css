@@ -1,19 +1,105 @@
 #the_title {
-    padding-left: 10px;
-    color: goldenrod;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin: auto;
+    color: plum;
+    border-style: dotted;
+    border-color: blueviolet;
+    width: 30%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#article1 {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 120px;
+    border-style: solid;
+    border-color:  rgb(240, 198, 170);
+    border-radius: 25px;
+    background-color:lightyellow;
+    width: 100px
+}
+#article2 {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+    border-style: solid;
+    border-color: #dbd19a;
+    border-radius: 25px;
+    background-color: lightyellow;
+    width: 100px
+}
+
+#article3 {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+    border-style: solid;
+    border-color: #8fd8a1;
+    border-radius: 25px;
+    background-color: lightyellow;
+    width: 100px
+}
+
+#article4 {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+    text-align: center;
+    border-style: solid;
+    border-color: #95d4ec;
+    border-radius: 25px;
+    background-color: lightyellow;
+    width: 100px
+}
+
+#article5 {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+    border-style: solid;
+    border-color: #babbe9;
+    border-radius: 25px;
+    background-color: lightyellow;
+    width: 100px
+}
+
+#article6 {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+    border-style: solid;
+    border-color: #cf95dd;
+    border-radius: 25px;
+    background-color: lightyellow;
+    width: 100px
+}
+
+#featured_fields1 {
+    display: inline-block;
+    padding: 10px;
+    margin: auto;
+    border-style: solid;
+    border-color:  rgb(208, 228, 245);
+    border-radius: 25px;
+    font-family: cursive;
+    background-color:rgba(236, 219, 240, 0.952);
+    width: 1398px
 }
 
 #featured_fields3 {
     padding: 10px;
     margin: 10px;
     border-style: solid;
-    border-color: #8c1514;
+    border-color:  rgb(183, 216, 245);
     border-radius: 25px;
-    background-color: lightyellow;
+    background-color:rgba(232, 182, 243, 0.952);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 200px;
 }
 
 textarea {
     width: 100%;
-    height: 2vh;
-    
+    height: 25vh;
     }
