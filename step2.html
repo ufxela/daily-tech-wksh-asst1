@@ -14,7 +14,7 @@
   What is id? What if we change it to "the_real_title"? 
   Change "the_real_title" back to "the_title" after you're done
 -->
-<h1 id="the_title">So you wanna set up a Stanford Daily email newsletter?</h1>
+<h1 id="the_agnes_title">So you wanna set up a Stanford Daily email newsletter?</h1>
 
 <!--
   Step 2.2
@@ -26,6 +26,8 @@
   What happens? Then, change "the_title" to "not_the_title" up on the id of the h1 tag. Then what happens?
   Write comment about your findings!
 
+ When I changed "the_title" to "not_the_title" down below, nothing happened because the id of the h1 tag was still "the_title". After I changed it to "not_the_title" the style changed -->
+
   What are "padding-left" or "color" or "font-size"? What are the the "10px" or "firebrick" that go to
   their right?
 
@@ -36,13 +38,20 @@
   https://www.w3schools.com/css/css_selectors.asp
 -->
 <style type="text/css">
-  #the_title {
+  #not_the_title {
       padding-left: 10px;
       color: firebrick;
   }
   #the_real_title {
       font-size: 100px;
       color: aquamarine;
+  }
+
+  #the_agnes_title {
+      text-align:center;
+      color:pink;
+      text-shadow: 2px 2px gold;
+
   }
 </style>
 <!--
