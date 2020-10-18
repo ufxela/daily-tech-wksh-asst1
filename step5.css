@@ -13,8 +13,10 @@ lines in your html files to make them more readable.
 }
 
 #featured_fields3 {
+    text-align: center;
+    width: 100px;
     padding: 10px;
-    margin: 10px;
+    margin: auto;
     border-style: solid;
     border-color: #8c1514;
     border-radius: 25px;
