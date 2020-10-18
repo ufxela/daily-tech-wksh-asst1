@@ -1,16 +1,105 @@
 #the_title {
     padding-left: 10px;
-    color: goldenrod;
+    color: #c94c4c;
+    text-align: center;
+}
+
+#featured_fields0 {
+    padding: 45px;
+    margin: 45px;
+    border-style: solid;
+    border-color: #111111;
+    border-radius: 1px;
+    background-color: #8EE4AF;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+
+#featured_fields1 {
+    padding: 45px;
+    margin: 45px;
+    border-style: solid;
+    border-color: #111111;
+    border-radius: 1px;
+    background-color:#AFD275;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+#featured_fields2 {
+    padding: 45px;
+    margin: 45px;
+    border-style: solid;
+    border-color: #111111;
+    border-radius: 1px;
+    background-color:#5CDB95;
+    width: 500px;
+    margin: auto;
+    text-align: center;
 }
 
 #featured_fields3 {
-    padding: 10px;
-    margin: 10px;
+    padding: 45px;
+    margin: 45px;
     border-style: solid;
-    border-color: #8c1514;
-    border-radius: 25px;
-    background-color: lightyellow;
+    border-color: #111111;
+    border-radius: 1px;
+    background-color:#86C232;
+    width: 500px;
+    margin: auto;
+    text-align: center;
 }
+
+#featured_fields4 {
+    padding: 45px;
+    margin: 45px;
+    border-style: solid;
+    border-color: #111111;
+    border-radius: 1px;
+    background-color:#379683;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+#featured_fields5 {
+    padding: 45px;
+    margin: 45px;
+    border-style: solid;
+    border-color: #111111;
+    border-radius: 1px;
+    background-color:#61892F;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+#featured_fields6 {
+    padding: 45px;
+    margin: 45px;
+    border-style: solid;
+    border-color: #111111;
+    border-radius: 1px;
+    background-color:#EDF5E1;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+button {
+    display: inline-block;
+    padding: 10px;
+    background-color: #379683;
+    border-radius: 2px;
+    margin: auto;
+    background-color: #c94c4c;
+    font-size: 12px;
+
+}
+
 
 textarea {
     width: 100%;
