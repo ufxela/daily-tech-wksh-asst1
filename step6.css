@@ -7,7 +7,7 @@
     padding: 10px;
     margin: 10px;
     border-style: solid;
-    border-color: #8c1514;
+    border-color: palevioletred;
     border-radius: 25px;
     background-color: lightyellow;
 }
@@ -17,3 +17,8 @@ textarea {
     height: 2vh;
     
     }
+
+#submit_button {
+    background-color:pink;
+    border-radius: 25px;
+}
