@@ -18,9 +18,9 @@
 text area is where a user inputs text. It is styled by the user inputting information. 
         You may be thinking right now: with a text area, a user can input
         text, but how can my program get the text that the user inputs?
-        Don't worry about that for now--we'll get to it soon!
+        Don't worry about that for now--we'll get to it soon! 
       -->
-      <textarea></textarea>
+ 
       <!-- Step 6.2
 
         We're so close to creating the "look" of a real form that Stanford Daily
@@ -32,16 +32,22 @@ text area is where a user inputs text. It is styled by the user inputting inform
         Also remember to add CSS styling to everything, so it looks pretty! You can also look into the <br>
         element as another way to add vertical whitespace.
       -->
-    <span>Featured contect author name</span>
-    <textarea></textarea>
-    <span> Featured content link</span>
-    <textarea></textarea>
+    <div>
+    <textarea id="featured_content_headline_text"></textarea>
+    <span>Featured content author name(s)</span>
+    <textarea id="featured_content_byline_text"></textarea>
+    <span>Featured content link</span>
+    <textarea id="featured_content_links_text"></textarea>
+    <span>Featured content image link</span>
+    <textarea id="featured_content_image_alt_text"></textarea>
+    <span>Featured content excerpt</span>
+    <textarea id="featured_content_excerpt_text"></textarea>
     </div>
 
       <!-- Step 6.3 
         This is a button! What is a button? What is "onclick"? Are there other attributes
         which we can add to a button? A button is something you can click and it will do something as a result (sometimes) 
-        onclick is when the user clicks, what ever is put will happen.
+        onclick is when the user clicks, what ever is put will happen. The etilets
 
         https://www.w3schools.com/html/html_attributes.asp
         https://www.w3schools.com/jsref/event_onclick.asp
@@ -55,7 +61,7 @@ text area is where a user inputs text. It is styled by the user inputting inform
       -->
 <style> 
 button {
-  color:palevioletred;
+  color:black;
   font-size: small;
 }
 </style>

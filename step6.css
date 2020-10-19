@@ -1,15 +1,15 @@
 #the_title {
     padding-left: 10px;
-    color: goldenrod;
+    color: indigo;
 }
 
 #featured_fields3 {
     padding: 20px;
     margin: 10px;
     border-style: solid;
-    border-color: #8c1514;
+    border-color: #2D005A;
     border-radius: 25px;
-    background-color: lightyellow;
+    background-color: paleturquoise;
 }
 
 textarea {
